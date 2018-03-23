@@ -24,3 +24,5 @@ info = {"name":"Dave glut", "Age":20, "student_num": 83957}
 student_info(courses, info)    #not what we wanted  (first 2 "fields" populated only)
 student_info(*courses, **info)    #* and ** make it treat it as we want
 
+print("bit on th end")
+
